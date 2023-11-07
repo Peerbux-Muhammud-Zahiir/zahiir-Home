@@ -1,0 +1,110 @@
+.jumbotron{
+    margin:10px;
+    border:none;
+    background-color:white;
+    border-radius:100px;
+    display:inline-flexbox;
+    justify-content:left;
+    overflow:auto;
+}
+.jumbo1{
+    margin:10px;
+    height:400px;
+    width:auto;
+    border:none;
+    background-color:white;
+    border-radius:100px;
+    border:none;
+    display:inline-flexbox;
+    justify-content:left;
+    overflow:auto
+}
+#h1{
+    padding-top:30px;
+    text-align:center;
+    color:rgb(195, 130, 141)}
+
+.background{
+ background-color:rgb(195, 130, 141);
+
+}
+#img1{
+    margin:10px;
+    height:200px;
+    width:auto;
+    border-radius:100px;
+    float:left;
+    border:none;
+    transition:height 0.3s,border-radius 0.3s;
+}
+#img1:hover{
+    height:220px;
+    border-radius:120px;
+
+    width:auto;
+}.jumbo2{
+    height:100px;
+    background-color:white;
+    margin:10px;
+    border-radius:50px;
+    border:none;
+    display:flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+    
+}
+#link1{
+    color:black;
+    transition:color 0.15s;
+}
+#link1:hover{
+    color:rgb(195, 130, 141);
+    text-shadow:3px 3px 10px black;
+}
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    width: 20px;
+    text-decoration:none;
+    text-align:center;
+    margin: 40px 40px;
+    border-radius:20px;
+    color:black;
+    transition:color 0.30s,cursor 2s,box-shadow 0.30s;
+}
+  .fa:hover{
+    color:rgb(195, 130, 141);
+    box-shadow:3px 3px 5px rgb(195, 130, 141);
+    cursor:pointer;
+  }
+  #h2{
+    transition:text-decoration 2s;
+  }
+#h2:hover{
+    text-decoration:underline;
+}
+    #blogpostbutton{
+        color:white;
+        padding:10px;
+        border:1px solid #f57c00;
+        background-color:#f57c00;
+        border-radius:20px;
+        transition:color 0.30s,backgroud-color 0.30s,box-shadow 0.30s;
+    }
+    #blogpostbutton:hover{
+
+cursor:pointer;
+
+color:  rgb(195, 130, 141);
+border:1px solid rgb(195, 130, 141);
+background-color:white;
+box-shadow:5px 5px 10px rgb(195, 130, 141);
+    }
+
+    #bloggerbutton:active{
+        background-color:black;
+    }
+
+    .fa:active{
+        opacity:0.2;
+    }
